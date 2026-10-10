@@ -1,0 +1,455 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+li{
+    list-style: none;
+    
+}
+
+a{
+    color: white;
+
+}
+
+.list-items{
+    display: flex;
+    gap: 30px;
+}
+
+.facebook{
+    background-color: white;
+    color: black;
+}
+
+.text-1{
+    margin-top: 80px;
+    text-align: center;
+}
+
+.header-txt1{
+    margin-top: 20px;
+
+}
+
+.span-txt1{
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+img{
+    width: 100%;
+}
+
+.first-img{
+    margin-top: 20px;
+    position: relative;
+}
+
+.header-txt2{
+    background-color: darkblue;
+    padding: 10px 0px;
+    margin-top: 10px;
+
+}
+
+.sub{
+    color: black;
+    text-decoration: none;
+    background-color: darkgray;
+    padding: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.content{
+    position: absolute;
+    bottom: 10px;
+    color: white;
+    padding: 10px;
+    font-size: 30px;  
+}
+
+.whitespace{
+background-color: whitesmoke;
+}
+
+.main-container{
+display: grid;
+grid-template-columns: 2fr 1fr;
+grid-gap: 30px;
+}
+
+.container1{
+    margin-left: 30px;
+}
+
+.img2{
+   width: 94%; 
+   margin-left: 20px;
+   margin-top: 20px;
+}
+
+.header-txt3{
+    margin-top: 10px;
+    padding-top: 20px;
+}
+
+.header-txt4{
+    margin-top: 10px;
+}
+
+.para-txt{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.white{
+    background-color: white;
+    margin-top: 20px;
+
+}
+
+.title1{
+  text-align: center;
+}
+
+.flex1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.like{
+    width: 20%;
+}
+
+.list1{
+    border: 1px solid darkgray;
+    padding: 5px;
+    margin-left: 20px;
+    
+    margin-bottom: 25px;
+}
+
+.reply{
+    background-color: black;
+    color: white;
+    padding: 5px 20px 5px 20px;
+    margin-bottom: 25px;  
+    margin-right: 30px;
+}
+
+.span-txt2{
+    background-color: white;
+    color: black;
+    padding: 0.5px 5px 0.5px 5px;
+}
+
+.smoker1{
+    width: 10%;
+    height:80px ;
+    margin-bottom: 30px;
+    margin-right: 10px;
+}
+
+.flex2{
+    display: flex;
+    margin-left: 20px;
+}
+
+.header-txt5{
+margin-top: 10px;
+}
+
+.para-txt1{
+    margin-top: 20px;
+}
+
+.flex3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.like1{
+    width: 20%;
+}
+
+.date{
+    color: darkgray;
+}
+
+.container2{
+    margin-right: 20px;
+}
+
+.img3{
+    margin-top: 20px;
+    height: 325px;
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+    top: 222%;
+    color: white;
+    margin-left: 10px;
+}
+
+.paratxt2{
+    margin-top: 15px;
+}
+
+.black{
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.flex{
+    display: flex;
+    margin-top: 20px;
+    gap: 10px;
+
+}
+
+.smoker2{
+width: 10%;
+}
+
+.sweat{
+width: 10%;
+}
+
+.workshop{
+width: 10%;
+}
+
+.trends{
+width: 10%;
+}
+
+.freespace{
+    /* padding: 100px; */
+    background-color: whitesmoke;
+    margin: 15px;
+    height: 200px;
+}
+
+.different{
+    background-color: white;
+    /* margin-top: 20px; */
+    width: 400px;
+    height: 290px;
+}
+
+.confuse{
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.paratxt3{
+    text-align: center;
+    background-color: whitesmoke;
+    color: black;
+    padding: 85px;
+}
+
+.flex4{
+    display: flex;
+    margin-top: 10px;
+    gap: 15px;
+    margin-left: 10px;
+}
+
+.span-txt3{
+ background-color: black;
+ color: white;   
+}
+
+.new{
+    background-color: whitesmoke;
+    padding: 1px;
+}
+
+.lon{
+    background-color: whitesmoke;
+    padding:1px;
+}
+
+.hats{
+    background-color: whitesmoke;
+    padding: 1px;
+}
+
+.nor{
+    background-color:whitesmoke ;
+    padding: 1px;
+}
+
+.ters{
+    background-color: whitesmoke;
+    padding: 1px;
+}
+
+.ide{
+    background-color: whitesmoke;
+    padding: 1px;
+}
+
+.dea{
+    background-color: whitesmoke;
+    padding: 1px;
+}
+
+.acc{
+    background-color: whitesmoke;
+    padding: 1px;
+}
+
+.paper{
+    background-color: whitesmoke;
+    padding: 1px;
+}
+
+.cloth{
+    background-color: whitesmoke;
+    padding: 1px;
+}
+
+.shop{
+    background-color: whitesmoke;
+    padding: 1px;
+}
+
+.jea{
+    background-color: whitesmoke;
+    padding: 1px;
+    margin-bottom: 20px;
+}
+
+.tre{
+    background-color: whitesmoke;
+    padding: 1px;
+    margin-bottom: 20px;
+}
+
+.hat{
+    width: 47%;
+    margin-right: 10px;
+}
+
+.my-pictures{
+    margin-left: 10px;
+    margin-top: 10px;
+    
+}
+
+.my-four1{
+    width: 47%;
+}
+
+.my-four2{
+    width: 47%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.my-four3{
+    width: 47%;
+    margin-bottom: 10px;
+}
+
+.pics3{
+    display: flex;
+}
+
+.pics4{
+    display: flex;
+    margin-top: 10px;
+}
+
+.flex5{
+    display: flex;
+    gap: 10px;
+    padding: 15px;
+}
+
+.face{
+    background-color: black;
+    color: white;
+    padding: 2px;
+}
+
+.paratxt4{
+    line-height: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+input{
+    width: 90%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 1px solid lightgrey;
+}
+
+.cribe{
+    background-color: rgb(219, 65, 65);
+    width: 90%;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.keyword{
+    height: 220px;
+}
+
+.my-foot{
+    background-color: rgb(103, 103, 103);
+    margin-top: 20px;
+    padding: 60px;
+}
+
+.para-txt5{
+    background-color: black;
+    color: white;
+    width: 10%;
+    padding: 10px 11.6px;
+    margin-top: -30px;
+    margin-left: -30px;
+    margin-bottom: 30px;
+}
+
+
+.powered{
+    color: white;
+    margin-left: -30px;
+}
+
+.w3{
+    text-decoration: underline;
+}
